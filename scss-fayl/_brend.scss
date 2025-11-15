@@ -1,0 +1,15 @@
+.brend {
+  padding: 50px 0;
+
+  .brend-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+
+    img {
+      width: 120px;
+      opacity: 0.7;
+    }
+  }
+}

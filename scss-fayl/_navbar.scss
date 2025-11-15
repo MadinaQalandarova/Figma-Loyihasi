@@ -1,0 +1,48 @@
+.navbar {
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+
+
+
+  .logo {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .menu {
+    display: flex;
+    gap: 25px;
+
+    a {
+      color: $gray;
+      text-decoration: none;
+      font-weight: 500;
+      &:hover {
+        color: #000;
+      }
+    }
+  }
+
+  .actions {
+    display: flex;
+    gap: 10px;
+
+    .outline {
+      border: 1px solid #2563eb;
+      background: transparent;
+      padding: 8px 16px;
+      border-radius: 6px;
+      color: #2563eb;
+      font-weight: 600;
+    }
+
+    .primary {
+      background: $start-btn;
+      border: none;
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-weight: 600;
+    }
+  }
+}

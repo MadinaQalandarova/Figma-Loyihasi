@@ -1,0 +1,49 @@
+.hero {
+  text-align: center;
+  padding: 80px 0 40px;
+
+  .search {
+    display: inline-block;
+    background: #f3f4f6;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: gray;
+  }
+
+  h1 {
+    font-size: 42px;
+    font-weight: 700;
+    margin: 20px 0;
+    line-height: 1.2;
+  }
+
+  p {
+    max-width: 600px;
+    margin: 0 auto;
+    color: gray;
+  }
+
+  .tugma {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 25px;
+
+    .start-btn {
+      background: $start-btn;
+      padding: 12px 20px;
+      color: white;
+      border-radius: 6px;
+      font-weight: 600;
+    }
+
+    .watch {
+      border: 1px solid gray;
+      padding: 12px 20px;
+      border-radius: 6px;
+      background: white;
+      color: gray;
+    }
+  }
+}
